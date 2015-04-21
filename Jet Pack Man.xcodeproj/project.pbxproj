@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		530714D91AE6CA5C00863D06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530714D81AE6CA5C00863D06 /* AppDelegate.swift */; };
+		530714DB1AE6CA5D00863D06 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 530714DA1AE6CA5D00863D06 /* GameScene.sks */; };
+		530714DD1AE6CA5D00863D06 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530714DC1AE6CA5D00863D06 /* GameScene.swift */; };
+		530714DF1AE6CA5D00863D06 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530714DE1AE6CA5D00863D06 /* GameViewController.swift */; };
+		530714E21AE6CA5D00863D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530714E01AE6CA5D00863D06 /* Main.storyboard */; };
+		530714E41AE6CA5D00863D06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530714E31AE6CA5D00863D06 /* Images.xcassets */; };
+		530714E71AE6CA5D00863D06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 530714E51AE6CA5D00863D06 /* LaunchScreen.xib */; };
+		530714F31AE6CA5D00863D06 /* Jet_Pack_ManTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530714F21AE6CA5D00863D06 /* Jet_Pack_ManTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		530714ED1AE6CA5D00863D06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 530714CB1AE6CA5C00863D06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 530714D21AE6CA5C00863D06;
+			remoteInfo = "Jet Pack Man";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		530714D31AE6CA5C00863D06 /* Jet Pack Man.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jet Pack Man.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		530714D71AE6CA5C00863D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530714D81AE6CA5C00863D06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		530714DA1AE6CA5D00863D06 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		530714DC1AE6CA5D00863D06 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		530714DE1AE6CA5D00863D06 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		530714E11AE6CA5D00863D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		530714E31AE6CA5D00863D06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		530714E61AE6CA5D00863D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		530714EC1AE6CA5D00863D06 /* Jet Pack ManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jet Pack ManTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		530714F11AE6CA5D00863D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		530714F21AE6CA5D00863D06 /* Jet_Pack_ManTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jet_Pack_ManTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		530714D01AE6CA5C00863D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530714E91AE6CA5D00863D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		530714CA1AE6CA5C00863D06 = {
+			isa = PBXGroup;
+			children = (
+				530714D51AE6CA5C00863D06 /* Jet Pack Man */,
+				530714EF1AE6CA5D00863D06 /* Jet Pack ManTests */,
+				530714D41AE6CA5C00863D06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		530714D41AE6CA5C00863D06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				530714D31AE6CA5C00863D06 /* Jet Pack Man.app */,
+				530714EC1AE6CA5D00863D06 /* Jet Pack ManTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		530714D51AE6CA5C00863D06 /* Jet Pack Man */ = {
+			isa = PBXGroup;
+			children = (
+				530714D81AE6CA5C00863D06 /* AppDelegate.swift */,
+				530714DA1AE6CA5D00863D06 /* GameScene.sks */,
+				530714DC1AE6CA5D00863D06 /* GameScene.swift */,
+				530714DE1AE6CA5D00863D06 /* GameViewController.swift */,
+				530714E01AE6CA5D00863D06 /* Main.storyboard */,
+				530714E31AE6CA5D00863D06 /* Images.xcassets */,
+				530714E51AE6CA5D00863D06 /* LaunchScreen.xib */,
+				530714D61AE6CA5C00863D06 /* Supporting Files */,
+			);
+			path = "Jet Pack Man";
+			sourceTree = "<group>";
+		};
+		530714D61AE6CA5C00863D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				530714D71AE6CA5C00863D06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		530714EF1AE6CA5D00863D06 /* Jet Pack ManTests */ = {
+			isa = PBXGroup;
+			children = (
+				530714F21AE6CA5D00863D06 /* Jet_Pack_ManTests.swift */,
+				530714F01AE6CA5D00863D06 /* Supporting Files */,
+			);
+			path = "Jet Pack ManTests";
+			sourceTree = "<group>";
+		};
+		530714F01AE6CA5D00863D06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				530714F11AE6CA5D00863D06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		530714D21AE6CA5C00863D06 /* Jet Pack Man */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530714F61AE6CA5D00863D06 /* Build configuration list for PBXNativeTarget "Jet Pack Man" */;
+			buildPhases = (
+				530714CF1AE6CA5C00863D06 /* Sources */,
+				530714D01AE6CA5C00863D06 /* Frameworks */,
+				530714D11AE6CA5C00863D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jet Pack Man";
+			productName = "Jet Pack Man";
+			productReference = 530714D31AE6CA5C00863D06 /* Jet Pack Man.app */;
+			productType = "com.apple.product-type.application";
+		};
+		530714EB1AE6CA5D00863D06 /* Jet Pack ManTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 530714F91AE6CA5D00863D06 /* Build configuration list for PBXNativeTarget "Jet Pack ManTests" */;
+			buildPhases = (
+				530714E81AE6CA5D00863D06 /* Sources */,
+				530714E91AE6CA5D00863D06 /* Frameworks */,
+				530714EA1AE6CA5D00863D06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				530714EE1AE6CA5D00863D06 /* PBXTargetDependency */,
+			);
+			name = "Jet Pack ManTests";
+			productName = "Jet Pack ManTests";
+			productReference = 530714EC1AE6CA5D00863D06 /* Jet Pack ManTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		530714CB1AE6CA5C00863D06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kaysser Kayyali";
+				TargetAttributes = {
+					530714D21AE6CA5C00863D06 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					530714EB1AE6CA5D00863D06 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 530714D21AE6CA5C00863D06;
+					};
+				};
+			};
+			buildConfigurationList = 530714CE1AE6CA5C00863D06 /* Build configuration list for PBXProject "Jet Pack Man" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 530714CA1AE6CA5C00863D06;
+			productRefGroup = 530714D41AE6CA5C00863D06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				530714D21AE6CA5C00863D06 /* Jet Pack Man */,
+				530714EB1AE6CA5D00863D06 /* Jet Pack ManTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		530714D11AE6CA5C00863D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530714E71AE6CA5D00863D06 /* LaunchScreen.xib in Resources */,
+				530714E41AE6CA5D00863D06 /* Images.xcassets in Resources */,
+				530714DB1AE6CA5D00863D06 /* GameScene.sks in Resources */,
+				530714E21AE6CA5D00863D06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530714EA1AE6CA5D00863D06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		530714CF1AE6CA5C00863D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530714DD1AE6CA5D00863D06 /* GameScene.swift in Sources */,
+				530714DF1AE6CA5D00863D06 /* GameViewController.swift in Sources */,
+				530714D91AE6CA5C00863D06 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530714E81AE6CA5D00863D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530714F31AE6CA5D00863D06 /* Jet_Pack_ManTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		530714EE1AE6CA5D00863D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 530714D21AE6CA5C00863D06 /* Jet Pack Man */;
+			targetProxy = 530714ED1AE6CA5D00863D06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		530714E01AE6CA5D00863D06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530714E11AE6CA5D00863D06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		530714E51AE6CA5D00863D06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				530714E61AE6CA5D00863D06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		530714F41AE6CA5D00863D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		530714F51AE6CA5D00863D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		530714F71AE6CA5D00863D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jet Pack Man/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		530714F81AE6CA5D00863D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jet Pack Man/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		530714FA1AE6CA5D00863D06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jet Pack ManTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jet Pack Man.app/Jet Pack Man";
+			};
+			name = Debug;
+		};
+		530714FB1AE6CA5D00863D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Jet Pack ManTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jet Pack Man.app/Jet Pack Man";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		530714CE1AE6CA5C00863D06 /* Build configuration list for PBXProject "Jet Pack Man" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530714F41AE6CA5D00863D06 /* Debug */,
+				530714F51AE6CA5D00863D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		530714F61AE6CA5D00863D06 /* Build configuration list for PBXNativeTarget "Jet Pack Man" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530714F71AE6CA5D00863D06 /* Debug */,
+				530714F81AE6CA5D00863D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		530714F91AE6CA5D00863D06 /* Build configuration list for PBXNativeTarget "Jet Pack ManTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				530714FA1AE6CA5D00863D06 /* Debug */,
+				530714FB1AE6CA5D00863D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 530714CB1AE6CA5C00863D06 /* Project object */;
+}
